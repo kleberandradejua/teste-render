@@ -1,0 +1,9 @@
+# render.yaml
+services:
+  - type: web
+    name: express-api
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
