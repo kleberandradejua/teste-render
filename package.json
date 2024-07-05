@@ -4,11 +4,13 @@
   "description": "teste de api com Render",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.19.2"
   },
   "author": "kleber de andrade",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "keywords": []
 }
